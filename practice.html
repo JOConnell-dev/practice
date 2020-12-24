@@ -78,9 +78,37 @@
         <!--ADD A REQUIRED FIELD-->
         <h2>Add a required field to the form</h2>
         <input type="text" required>
+        <br>
+        <br>
+    
+        <!-- CREATE RADIO BUTTONS-->
+        <h2> Radio Buttons</h2>
+        <label>
+            <input type="radio" name="indoor-outdoor">Indoor
+            <input type="radio" name="indoor-outdoor">Outdoor
+        </label>
+        <br>
 
+        <!-- CREATE A CHECKLIST-->
+        <h2>Checklist</h2>
+        <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+        <label for="loving"><input id="loving" type="checkbox" name="personality"> Timid</label>
+        <label for="loving"><input id="loving" type="checkbox" name="personality"> Nope</label>
+        <br>
 
+        <!-- ADDING VALUES TO RADIO BUTTONS-->
+        <h2>Adding Values to Radio Buttons</h2>
+        <label for="indoor">
+            <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+        </label>
+        <label for="outdoor">
+            <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor
+        </label>
+        <br>
 
+        <!-- CHECKED BY DEFAULT-->
+        <h2>Checked by Default</h2>
+        <input type="radio" name="test-name" checked> Checked
         <!-- Add JS-->
         <script src="js/main.js"></script>
     </body>
