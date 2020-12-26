@@ -19,4 +19,9 @@ h3 {
     border-color: red;
     border-width: 5px;
     border-style: solid;
+    border-radius: 10px;
+}
+
+.image_border {
+    border-radius: 50%;
 }
