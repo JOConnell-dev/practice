@@ -25,3 +25,11 @@ h3 {
 .image_border {
     border-radius: 50%;
 }
+
+.green-background {
+    background-color: green;
+}
+
+.blue-background {
+    background-color: blue;
+}
