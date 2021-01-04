@@ -39,5 +39,21 @@ h3 {
 }
 
 [type='radio']{
-    margin: 20px 00px 50px 0px;
+    margin: 20px 0px 20px 0px;
 }
+
+/* CREATE CSS VARIABLE */
+.penguin {
+--penguin-skin: gray;
+}
+
+/* INHERIT CSS VARIABLES */
+:root {
+    /* ROOT IS A PSUEDO CLASS SELECTOR, VARIABLE WOULD BE AVAILABLE GLOBALLY */
+ }
+
+ @media (max-width: 350px){
+     :root {
+         /* ADD GLOBAL VARIABLES HERE */
+     }
+ }
