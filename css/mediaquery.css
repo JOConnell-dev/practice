@@ -1,0 +1,16 @@
+@media (max-width: 100px){
+    /* ENTER CSS RULES */   
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-height:350px){
+    /* ENTER CSS RULES */
+    /* VIEWPORT */
+    body {
+        width: 30vw;
+        height: 30vh;
+    }
+}
