@@ -1,7 +1,10 @@
 .container {
     font-size: 40px;
     width: 100%;
-    background: LightGray;
+    background: yellow;
+    display: grid;
+    grid-template-columns: auto 50px 10% 2fr 1fr;
+    grid-column-gap: 10px;
 }
 
 
