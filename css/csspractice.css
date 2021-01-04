@@ -33,3 +33,11 @@ h3 {
 .blue-background {
     background-color: blue;
 }
+
+#grey-background {
+    color: grey;
+}
+
+[type='radio']{
+    margin: 20px 00px 50px 0px;
+}
